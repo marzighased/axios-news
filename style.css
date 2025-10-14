@@ -16,3 +16,36 @@ ul li {
 a {
     text-decoration: none;
 }
+
+.header {
+   background-color: #1c3b7a; 
+}
+
+.nav-top {
+    position: relative;
+}
+
+.secondary-header {
+    background-color: #fff;
+}
+
+.menu-link {
+    color:#fff
+}
+
+.login {
+    position: absolute;
+    display: inline-block;
+    right: 0;
+}
+
+.login a {
+   color: #fff; 
+}
+
+.back-to-top {
+    color: #fff;
+}
+
+
+
