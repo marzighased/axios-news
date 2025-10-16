@@ -23,6 +23,8 @@ a {
 
 .nav-top {
     position: relative;
+    height: 50px;
+    line-height: 50px;
 }
 
 .secondary-header {
@@ -44,7 +46,14 @@ a {
 }
 
 .back-to-top {
-    color: #fff;
+    color: #1c3b7a;
+    margin-left: 50px;
+    background-color: #fff;
+    width: 40px;
+    height: 50px;
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
 }
 
 
