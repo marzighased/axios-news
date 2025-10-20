@@ -18,7 +18,10 @@ a {
 }
 
 .header {
-   background-color: #1c3b7a; 
+   background-color: #1c3b7a;
+   color: #fff;
+   text-transform: uppercase;
+   font-size: 14px;
 }
 
 .nav-top {
@@ -29,16 +32,19 @@ a {
 
 .secondary-header {
     background-color: #fff;
+    text-align: center;
+    position: relative;
 }
 
 .menu-link {
-    color:#fff
+    color:#fff;
+    padding: 0 10px;
 }
 
 .login {
     position: absolute;
     display: inline-block;
-    right: 0;
+    right: 50px;
 }
 
 .login a {
@@ -54,6 +60,42 @@ a {
     display: inline-block;
     line-height: 50px;
     text-align: center;
+}
+
+.secondary-header .left {
+    display: inline-block;
+    position: absolute;
+    left: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.secondary-header .right {
+    display: inline-block;
+    position: absolute;
+    right: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.secondary-header .center img {
+    height: 50px;
+}
+
+.secondary-header button {
+    border: 1px solid #1c3b7a;
+    padding: 5px 15px;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #1c3b7a;
+}
+
+.secondary-header button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.secondary-header button i {
+    padding-left: 5px;
 }
 
 
